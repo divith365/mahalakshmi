@@ -388,8 +388,9 @@ footer{background:linear-gradient(180deg,#08121f 0%,#050d18 100%);color:rgba(255
 
 /* ===== RESPONSIVE ===== */
 @media(max-width:900px){
-  .hero-inner{grid-template-columns:1fr;}
-  .hero-visual{display:none;}
+  .hero-inner{grid-template-columns:1fr; gap:40px;}
+  .hero-visual{display:flex; justify-content:center; margin-top:30px; width:100%;}
+  .hero-slideshow{width:100%; max-width:460px;}
   .services-grid{grid-template-columns:1fr 1fr;}
   .why-grid{grid-template-columns:1fr;}
   .testi-grid{grid-template-columns:1fr 1fr;}
